@@ -108,7 +108,7 @@ namespace RaysHotDogs.Android
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int Custom = 2130968576;
+			public const int Theme_Custom = 2130968576;
 			
 			static Style()
 			{

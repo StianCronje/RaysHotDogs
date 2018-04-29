@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.Custom" parent="@android:style/Theme.Material.Light.LightStatusBar">
+    <item name="android:colorAccent">#ff2196f3</item>
+    <item name="android:colorControlActivated">#ff42a5f5</item>
+  </style>
+</resources>
