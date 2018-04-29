@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/hotDogImageView"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:text="Hot Dog Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/hotDogNameTextView" />
+    <TextView
+        android:text="Short Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shortDescriptionTextView"
+        android:paddingTop="20dp"
+        android:textSize="16dp" />
+    <TextView
+        android:text="Description text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionTextView"
+        android:paddingTop="20dp"
+        android:textSize="12dp" />
+    <TextView
+        android:text="Price: 999"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/priceTextView"
+        android:paddingTop="20dp"
+        android:textSize="16dp" />
+</LinearLayout>

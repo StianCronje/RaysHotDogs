@@ -41,11 +41,42 @@ namespace RaysHotDogs.Android
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050003
+			public const int descriptionTextView = 2131034115;
+			
+			// aapt resource value: 0x7f050000
+			public const int hotDogImageView = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int hotDogNameTextView = 2131034113;
+			
+			// aapt resource value: 0x7f050004
+			public const int priceTextView = 2131034116;
+			
+			// aapt resource value: 0x7f050002
+			public const int shortDescriptionTextView = 2131034114;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			public const int HotDogDetailView = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Main = 2130837505;
 			
 			static Layout()
 			{
@@ -69,6 +100,22 @@ namespace RaysHotDogs.Android
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int Custom = 2130968576;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
